@@ -78,6 +78,14 @@ body {
         }
     }
 }
+.spinner{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    img{
+        width: 45px;
+    }
+}
 
 .box {
     background-color: #fff;

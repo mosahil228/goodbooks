@@ -1,16 +1,24 @@
 import './App.css';
 import React,{useState} from 'react'
 import logo from "./images/logo.svg"
+import spinner from "./images/spinner.gif"
 import Sdata from "./Sdata"
 
 const App = () => {
   const [items, setItems] = useState(Sdata);
+  const [loading, setLoading] = useState(false);
+  
   const filterItem = (categoryItem) => {
+    setLoading(true)
+    setTimeout(() => {
+      const updatedItem = Sdata.filter((curElem2) => {
+        return curElem2.category === categoryItem;
+      });
+      setItems(updatedItem);
+      setLoading(false)
+    },2000);
    
-    const updatedItem = Sdata.filter((curElem2) => {
-      return curElem2.category === categoryItem;
-    });
-    setItems(updatedItem);
+    
   };
   
   return (
@@ -30,7 +38,12 @@ const App = () => {
                 <button  onClick={() => filterItem("business")}>Business</button>
                 <button  onClick={() => filterItem("travel")}>Travel</button>
               </div>
-              <div className='books'>
+
+
+              {loading &&<div className='spinner'>
+                <img src={spinner} alt=""/>
+              </div>}
+              {!loading &&<div className='books'>
                 {items.slice(0,4).map((item,index)=>{
                   const {name,img,rate}=item;
                   return(
@@ -45,7 +58,7 @@ const App = () => {
                     </div>
                   )
                 })}
-              </div>
+              </div>}
             </div>
           </div>
         </div>

@@ -70,6 +70,15 @@ body {
   color: #000 !important;
 }
 
+.spinner {
+  display: flex;
+  margin-top: 8rem;
+  justify-content: center;
+}
+.spinner img {
+  width: 45px;
+}
+
 .box {
   background-color: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
