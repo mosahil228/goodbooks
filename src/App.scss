@@ -113,14 +113,23 @@ body {
     html{
         font-size: 45%;
     }
+    .box .boxDesc h2 {
+        font-size: 2.7rem!important;
+    }
 }
 @media(max-width:465px){
     html{
         font-size: 42%;
     }
+    .box .boxDesc h2 {
+        font-size: 3rem!important;
+    }
 }
 @media(max-width:425px){
     html{
         font-size: 40%;
+    }
+    .box .boxDesc h2 {
+        font-size: 2.9rem!important;
     }
 }
