@@ -1,38 +1,111 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&family=Fira+Sans&family=Josefin+Sans:ital@1&family=Kanit:wght@300&family=Oleo+Script+Swash+Caps&family=Poppins:wght@500&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-section {
+  width: 100%;
+}
+.main-section .main-item {
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 5rem;
+}
+.header .logo {
+  display: flex;
+  gap: 2rem;
+}
+.header .logo h1 {
+  font-size: 4rem;
+}
+.header .logo img {
+  height: auto;
+  width: 5rem;
+}
+.header p {
+  margin-top: 2rem;
+  font-size: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+.buttons button {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+.buttons button:hover {
+  background-color: rgb(59, 58, 58);
+}
+.buttons button:focus {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  gap: 2rem;
+  padding: 1rem;
+}
+.box .boxDesc {
+  margin-top: 4px;
+}
+.box .boxDesc h2 {
+  font-size: 2rem;
+}
+.box .boxDesc h5 {
+  font-size: 1.5rem;
+  color: grey;
+}
+.box .imgBox img {
+  width: 64px;
+  height: auto;
+}
+
+@media (max-width: 750px) {
+  html {
+    font-size: 45%;
   }
 }
+@media (max-width: 465px) {
+  html {
+    font-size: 42%;
+  }
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 40%;
+  }
+}/*# sourceMappingURL=App.css.map */

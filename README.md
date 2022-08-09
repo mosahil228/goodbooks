@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Goodbooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web app which shows the list of books according to genre.
 
-## Available Scripts
+Follow these steps to run the react app locally:
 
-In the project directory, you can run:
+Step1: Clone this repo locally.
 
-### `npm start`
+Step2: Move to this repo folder directory.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Step3: Open this in your code editor.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step4: Run `npm install` command to install all your required packages.
 
-### `npm test`
+Step5: Run `npm start` command to start your react app.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<b>Frontend</b>: React JS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<b>Styling</b>: CSS
 
-### `npm run eject`
+<b>Backend Functionality</b>: Javascript
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Development Environment Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install [NodeJs](https://nodejs.org/en/download/) so you can use npm package manager:
+  <br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ```
+  sudo apt-get update
+  sudo apt install nodejs
+  node -v or node –version
+  ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Install [npm](https://docs.npmjs.com/cli/v7/commands/npm-install) so you can install required libraries using it:
+  <br/>
 
-## Learn More
+  ```
+  sudo apt-get update
+  sudo apt install npm
+  ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Install [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git):
+  <br/>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  ```
+  sudo apt-get update
+  sudo apt install git-all
+  ```
